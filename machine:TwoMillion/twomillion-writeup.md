@@ -207,11 +207,3 @@ cat /root/root.txt
 ## Appendix — attack chain in one line
 
 JS-leaked invite API → ROT13/Base64 invite code → register → IDOR-free mass-assignment to admin → blind command injection (www-data shell) → DB creds in `.env` reused for SSH (user) → CVE-2023-0386 OverlayFS (root).
-
-## 3. Privilege escalation
-
-_TBD_
-
-## 4. Lessons learned
-
-_TBD_
